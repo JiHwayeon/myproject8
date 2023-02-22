@@ -1,0 +1,211 @@
+@charset "utf-8";
+fieldset{
+    border: none;
+}
+em{
+    font-style: normal;
+}
+#sec {
+    width: 100%;
+    margin: 0px auto;
+}
+#header > h1{
+    width: 40%;
+}
+#header > h1 > img{
+    width: 70%;
+}
+#header {
+    padding: 20px 37px;
+    border-bottom: 2px solid #222;
+}
+#contentWrap{
+    padding: 20px 0px 60px 20px
+}
+.summary > li {
+    margin: 25px 0 25px;
+    list-style: upper-roman;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.sumin > li{
+    font-weight: 600;
+    list-style: decimal;
+    font-size: 1.2em;
+    margin: 25px 15px;
+}
+.sumin > li > p{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 15px 0px;
+}
+.sumin > li > p:last-child{
+    text-indent: 20;
+}
+.square {
+    margin-left: 15px;
+}
+.square > li{
+    font-size: 1.1em;
+    margin: 15px 0 25px;
+    list-style: square;
+}
+.square > li > p{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 10px 5px 5px;
+}
+.square > li > span{
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.table-1{
+    width: 100%;
+    border-top: 1px solid #868686;
+    border-collapse: collapse;
+    margin: 30px 0 30px;
+    table-layout: fixed;
+}
+.table-1 th{
+    height: 60px;
+    padding: 10px 0px 10px 108px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 700;
+    color: #2E2C2C;
+    text-align: left;
+}
+.table-1 td{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DEE2E6;
+    background: #FFF;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: left;
+}
+.table-2{
+    width: 100%;
+    border-top: 1px solid #868686;
+    border-collapse: collapse;
+    margin: 10px 0 30px;
+    table-layout: fixed;
+}
+.table-2 > thead td{
+    height: 60px;
+    padding: 10px 108px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 700;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-2 tr td:first-child{
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+    font-weight: 700;
+}
+.table-2 td{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DEE2E6;
+    background: #FFF;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: left;
+}
+b.tit{
+    display: block;
+    font-size: 1em;
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+.table-3{
+    width: 100%;
+    border-top: 1px solid #868686;
+    border-collapse: collapse;
+    margin: 20px 0 30px;
+    table-layout: fixed;
+}
+.table-3 th{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 700;
+    color: #2E2C2C;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+}
+.table-3 th:last-child{
+    border-right: none;
+}
+.table-3 td{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DEE2E6;
+    border-right: 1px solid #DEE2E6;
+    background: #FFF;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-3 td:last-child{
+    border-right: none;
+}
+.table-4{
+    margin: 20px 0;
+    width: 100%;
+    border-top: 1px solid #868686;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table-4 > thead td{
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #FAFAFA;
+    font-weight: 700;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-4 td{
+    border-right: 1px solid #DEE2E6;
+    height: 60px;
+    padding: 10px 27px;
+    border-bottom: 1px solid #DEE2E6;
+    background: #FFF;
+    font-weight: 500;
+    color: #2E2C2C;
+    text-align: center;
+}
+.table-4 td:last-child{
+    border-right: none;
+}
+.b1, .b2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content:space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.b2 >span{
+    font-size: 0.9em;
+}
+.graph{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #dcdcdc;
+}
+em{
+    font-weight: normal;
+    margin-left: 19px;
+    font-size: 0.85em;
+}
